@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+  --main-color: rgb(4,158,244);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Spartan", sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+#root {
+  margin: 1rem;
+  max-width: fit-content;
+}
+
+a {
+  color: grey;
+  text-decoration: none;
+  transition-duration: .6s;
+  display: inline-block;
+  margin: .1rem 0;
+}
+
+a:hover {
+  color: var(--main-color);
+}
+
+h2 {
+  margin-bottom: .4rem;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+#title {
+  font-weight: 600;
+}
+
+#subtitle {
+  color: var(--main-color);
+  font-weight: 600;
+}
+
+@keyframes flash {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#sketch {
+  width: 300px;
+  height: 300px;
+  margin: .2rem 0;
+  margin: -3.5rem 0 -3rem 0;
+  position: relative;
+  z-index: -1;
+}
+
+.shadow {
+  text-shadow: 1px 1px white;
+}
+
+#footnote {
+  font-size: 80%;
+  overflow: hidden;
+  max-width: 35ch;
+}
