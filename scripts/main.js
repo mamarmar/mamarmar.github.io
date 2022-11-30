@@ -27,7 +27,7 @@ root.innerHTML = /*html*/ `
 <br>
 
 <h2>Links</h2>
-<a href="./assets/cv.pdf" target="_blank">CV</a><br>
+<a href="./assets/cv-margarita-marmaridou.pdf" target="_blank">CV</a><br>
 <a href="https://github.com/mamarmar" target="_blank">GitHub</a><br>
 <a href="https://www.linkedin.com/in/margarita-marmaridou/" target="_blank">Linkedin</a>
 
